@@ -1,5 +1,7 @@
 # RodiumAi Code CLI
 
+![RodiumAi Code in a terminal: the home screen of the rodium command, with a request typed in Act mode](assets/rodiumai-code-cli.png)
+
 RodiumAi Code in your terminal. Type `rodium`: the agent reads your code, edits files, runs commands and works through a task with you, interactively or as a one-shot command you can script.
 
 > **Status: not public yet.** The install command will be published in the [documentation](https://www.rodiumai.io/docs/code/cli) at launch. [Join the waitlist](https://www.rodiumai.io/code) to hear the day it opens.
