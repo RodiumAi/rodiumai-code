@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Account, payment or plan question
+    url: https://www.rodiumai.io/dashboard/support
+    about: Questions that need your account are handled by RodiumAi support, not in a public issue.
+  - name: Report a security vulnerability
+    url: https://github.com/RodiumAi/rodiumai-code/security/policy
+    about: Do not open a public issue for a vulnerability. Read the security policy.
+  - name: Documentation
+    url: https://www.rodiumai.io/docs
+    about: Guides, references and troubleshooting for the RodiumAi products.

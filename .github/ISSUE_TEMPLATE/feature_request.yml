@@ -1,0 +1,50 @@
+name: Feature request
+description: Suggest a change or a new capability in a RodiumAi product
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for the idea. A feature request is a suggestion, not a commitment. Please read [CONTRIBUTING.md](https://github.com/RodiumAi/rodiumai-code/blob/main/CONTRIBUTING.md) first.
+
+        **This issue is public. Do not paste API keys, tokens, passwords or personal data.**
+  - type: dropdown
+    id: product
+    attributes:
+      label: Product
+      options:
+        - RodiumAi Code CLI
+        - RodiumAi Code Desktop
+        - RodiumAi Code for VS Code and Cursor
+        - RodiumAi MCP server
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: The problem you want to solve
+      description: What are you trying to do, and what gets in the way today?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What you would like to see
+      description: Describe the behaviour you have in mind. Examples and mock-ups are welcome.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives you tried
+      description: Other ways you solve it today, or other products that do it well.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before you send
+      options:
+        - label: I searched the existing issues and did not find this request.
+          required: true
+        - label: I did not include API keys, tokens, passwords or personal data.
+          required: true
